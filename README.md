@@ -1,8 +1,8 @@
-# PHP2Scope v0.1
+# PHP2Scope v0.3
 
 PHP2Scope is a local-first, wizard-driven **passive** black-box assessment prototype for PHP runtime exposure to CVE-2026-109618 and CVE-2026-109619. It provides both a browser UI and a terminal wizard using the same Python engine, and exports DOCX/PDF evidence reports.
 
-> **Safety and scope:** v0.1 performs bounded, normal HTTP GET/HEAD requests only. It does not submit forms, fuzz parameters, send exploit payloads, try code execution, or automatically fetch discovered links. Use it only on systems where you have authorization. The browser UI binds to `127.0.0.1` only.
+> **Safety and scope:** v0.3 performs bounded, normal HTTP GET/HEAD requests only. It does not submit forms, fuzz parameters, send exploit payloads, try code execution, or automatically fetch discovered links. Use it only on systems where you have authorization. The browser UI binds to `127.0.0.1` only.
 
 ## Included features
 
